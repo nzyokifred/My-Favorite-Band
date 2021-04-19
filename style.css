@@ -10,7 +10,10 @@ body{
   border-radius: 10px;
   margin: 30px;
   padding: 13px;
+}
 
+a{
+  text-decoration: none;
 }
 
 .container h1{
@@ -32,7 +35,54 @@ h3{
   line-height: 2;
   margin: auto;
 }
-
+.hero .albums
+{
+background-color: lavender;
+padding: 15px;
+display: flex;
+justify-content: space-evenly;
+}
+ h3
+{
+  text-align: center;
+}
+.albums ul
+{
+  background-color: lemonchiffon;
+  width: 20%;
+  font-size: 30px;
+  line-height: 2;
+  
+}
+.albums li
+{
+  list-style-type:circle;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: bottom 20px; 
+}
+.albums li a
+{
+color:brown;
+}
+.albums li a:hover
+{
+color:rgb(59, 30, 30);
+cursor: pointer;
+}
+.crew
+{
+display:flex;
+align-items: center;
+}
+.crew .member
+{
+  width:30%;
+}
+.crew img
+{
+  width: 100%;
+}
 img{
   background-position: center;
   padding-right: 10px;
@@ -45,32 +95,6 @@ img{
 }
 
 
-  li{
-    list-style-type: none;
-    display: inline;
-    text-align: center;
-    font-size: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: bottom 20px; ;
-    
-  }
-    
   
-  a{
-    color:firebrick;
     
-  }
-
-  ul{
-    margin:auto;
-    
-  }
-
-  section{
-    padding: 10px;
-    border-color: lightcoral;
-  }
-
- 
-   
-    
+      
