@@ -1,9 +1,36 @@
 body{
-  background: cornsilk;
-  margin: 30px;
+  
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
   
+}
+
+.container{
+  background: rgb(200, 196, 196);
+  border-radius: 10px;
+  margin: 30px;
+  padding: 13px;
+
+}
+
+.container h1{
+  text-align: center;
+}
+h3{
+  font-size: 30px;
+}
+.hero{
+  background-color: floralwhite;
+}
+.hero .hero2
+{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: medium;
+  border-radius: 10%;
+  text-align: center;
+  width: 70%;
+  line-height: 2;
+  margin: auto;
 }
 
 img{
@@ -13,20 +40,35 @@ img{
   margin-left: auto;
   margin-right: auto;
   border-radius: 30px;
-  background-size: 0.5%;
+  background: size 30px;
+  
 }
 
-.hero2{
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: medium;
-border-radius: 10%;
-}
+
   li{
     list-style-type: none;
     display: inline;
     text-align: center;
     font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: bottom 20px; ;
     
+  }
+    
+  
+  a{
+    color:firebrick;
+    
+  }
+
+  ul{
+    margin:auto;
+    
+  }
+
+  section{
+    padding: 10px;
+    border-color: lightcoral;
   }
 
  
